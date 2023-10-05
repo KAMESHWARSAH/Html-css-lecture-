@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.myimage{
+    background-image: url("https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg");
+    background-size: cover;
+}
+.mycard{
+    
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}

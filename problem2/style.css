@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#first{
+   height: 100%;
+   width: 100%;
+   background-image: url("https://hblimg.mmtcdn.com/content/hubble/img/leh/mmt/destination/m_leh-landscape_l_400_640.jpg");
+   background-size: cover;
+   background-position: content;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 31, 31, 0.458);
+}
+#content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: #fff;
+}
+#content h1{
+   text-transform: uppercase;
+   font-weight: 100;
+   font-size: 60px;
+   letter-spacing: 30px;
+   margin-bottom: 5px;
+}
+#content p{
+   margin-bottom: 10px;
+   font-weight: 500;
+   font-size: 16px;
+}
+#content{
+   padding: 12px 50px;
+   margin-top: 10px;
+   background-color: transparent;
+   color: #fff;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+/* second */
+#second{
+    height: 300px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+   height: 250px;
+   width: 50%;
+   background-color: red;
+   flex-basis: 50%;
+
+}
+.right{
+   width: 50%;
+   height: 250px;
+   background-color: green;
+   flex-basis: 50%;
+}
